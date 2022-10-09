@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="10.css">
+</head>
+<body>
+    <div class="container">
+        
+
+        <div class="a">
+            <div class="b">
+                <div class="c">
+                    <!-- Navigation -->
+        <nav class="navbar">
+            <div class="brand-name" >
+                <h5><img src ="/32.png" width="150" height="150" ></h5>
+            </div>
+
+            <div class="nav-items">
+                <ul class="navbar-nav">
+                    <a href="/land.html">
+                    <button class="sign-in"><li class="nav-link">Home</li></button></a>
+                    <li class="nav-link">
+                            <div class="dropdown">
+                            <button class="dropbtn">More 
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="/personal counseling.HTML">Personal Counseling</a>
+                              <a href="/top 10 colleges.html">Predction Page</a>
+                              
+                            </div>
+                        </div> 
+                    <a href="\himanshu.html">
+                    <button class="sign-in">
+                    <li class="nav-link">About Us</li></button></a>
+                    <a href="\login-form-v18\Login_v18\index.html">
+                    <button class="sign-in">Sign In</button></a>
+                </ul>
+            </div>
+        </nav>
+                    
+       <i>
+    <h3><b><u>
+        Enter details
+    </u></b></h3>
+       </i>
+    <form action="/action_page.php">
+        <i>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Interesting subject 1:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Interesting subject 2:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Interesting subject 3:</label><br>
+        <a href="#">
+            <button class="sign-in">Submit</button></a>
+        </i>
+      </form> 
+    </div>
+</div>
+</div>             
+</div>
+      
+
+</body>
+</html>
