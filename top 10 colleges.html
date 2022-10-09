@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(5.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Style the header */
+.header {
+  /*background-color: #f1f1f1;*/
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:#f1f1f1;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+
+  float: fixed;
+  width: 500%;
+  padding: 10px;
+ font-family:'Courier New', Courier, monospace ;
+  height: 300px;
+  color: rgb(255, 255, 255); /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  /*background-color: #b65b5b;*/
+  padding: 10px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.f{
+    align:center;
+}
+.column button{
+    border: none;
+    padding: .4rem 2rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    background: #ee5;
+    font-family: 'Rubik', sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h2><b><i><u> Career Guidance</u></i></b></h2>
+</div>
+
+<div class="row">
+  <div class="column" >
+    <a href="10.html">
+           <button type="button" > CLICK HERE FOR 10</button>
+    </a>
+    <h1><p> Page help you to select your stream.</p>
+        <p>This Page make your journy easy.</p>
+        <p>So, that you can achive your goal.</p></h1>
+    
+
+
+
+
+  </div>
+  <div class="column">
+    <p><a href="13.jpg">
+     <button type="button" > CLICK HERE FOR 12  </button>
+        </a>
+    </p>
+    <p ><h1>This Page gives you direction towards your dream.
+        <p> on yours stream</p>
+
+        </h1>
+    </p>
+
+
+  </div>
+  <div class="column">
+    <p>
+      <a href="ahhd.jpg">
+        <button type="button" > CLICK HERE FOR COLLEGE </button>
+      </a>
+       </p>
+       <p ><h1>This Page help you to  select what you should do after you college life.
+           </h1>
+       </p>
+   
+</div>
+</div>
+
+<div class="footer">
+  <p><h1>Never be afraid to try something new.  Remember amateurs built the ark, but professionals built the Titanic</h1></p>
+</div>
+
+</body>
+</html>
+
+

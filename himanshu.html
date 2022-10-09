@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  
+</div>
+
+<h2 style="text-align:center">Nerdous</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="" alt="" style="width:100%">
+      <div class="container">
+        <h2>We Believe</h2>
+        <p class="title">Believe in Your Dreams</p>
+        <p>"At nerdous we believe in treating other people like we want to be treated:
+            with friendliness, patience and respect. We believe that the education is 
+            the most exciting things in this world and that it's an honor four us to 
+            connect, encourage and help that community through our web site. We believe
+             in being more creative than we need to be and having fun while we are at it "
+            </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="" style="width:100%">
+      <div class="container">
+        <h2>Our Mission</h2>
+        <p class="title">missions are to be accomplished</p>
+        <p>"At nerdous we guide the class 9th,12th,UG & PG students to 
+            find there path and help them along ther further studies which 
+            creates interest among students to follow there passion."
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="" alt="" style="width:100%">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="title">Reach us at</p>
+        <p> ADDRESS:
+            Room no. - 237
+            Shastri Bhavan
+            RKGIT 
+            Near Rajnagar extention
+            Ghaziabad</p>
+        <p>E-mail : G12@nerdous.com</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</html>
